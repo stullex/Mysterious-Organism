@@ -20,7 +20,7 @@ const pAequorFactory = (num, arr) => {
     dna: arr,
 
     mutate() {
-      //mutation to get a slightly diferent DNA
+      //mutation to get a slightly different DNA
       let ranNum = Math.floor(Math.random() * this.dna.length);
       let newBase = returnRandBase();
       while (this.dna[ranNum] === newBase) {
