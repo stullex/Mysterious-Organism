@@ -55,7 +55,7 @@ const pAequorFactory = (num, arr) => {
           countC++;
         }
       }
-      if (countC >= 1 || countG >= 1) {
+      if (countC >= 9 || countG >= 9) {
         return true;
       } else {
         return false;
